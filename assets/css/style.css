@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #28cb8b;
+  --secondary-color: #263238;
+  --info-color: #2194f3;
+}
+/*Global styles*/
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+/**/
