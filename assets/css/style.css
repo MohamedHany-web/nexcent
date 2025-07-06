@@ -566,8 +566,12 @@ ul {
     justify-content: center;
   }
   .more-info .container .right-more-info-content,
-  .how-we-did-it .container .right-how-we-did-it-content {
+  .how-we-did-it .container .right-how-we-did-it-content,
+  .hero .hero-left-content {
     text-align: center;
+  }
+  .hero .hero-left-content {
+    margin-bottom: 50px;
   }
   .more-info .container .right-more-info-content h2,
   .how-we-did-it .container .right-how-we-did-it-content h2 {
