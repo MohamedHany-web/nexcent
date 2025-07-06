@@ -144,23 +144,77 @@ a {
 }
 /*End who we serve*/
 
-/*Start more info seciton*/
+/*Start more info seciton and how-we-did-it section*/
 
-.more-info .container {
+.more-info .container,
+.how-we-did-it .container {
   display: flex;
   justify-content: space-around;
 }
-.more-info .container .left-more-info-content {
+.more-info .container .left-more-info-content,
+.how-we-did-it .container .left-how-we-did-it-content {
   text-align: center;
   width: 40%;
   padding: 0 0 0 50px;
 }
-.more-info .container .right-more-info-content {
+.more-info .container .right-more-info-content,
+.how-we-did-it .container .right-how-we-did-it-content {
   width: 40%;
   padding: 0 50px 0 0;
 }
-.more-info .container .right-more-info-content h2 {
+.more-info .container .right-more-info-content h2,
+.how-we-did-it .container .right-how-we-did-it-content h2 {
   text-align: left;
 }
+.how-we-did-it {
+  margin-bottom: 70px;
+}
+/*End more info seciton and how-we-did-it section*/
 
-/*End more info seciton*/
+/*Start achievements section*/
+
+.achievements {
+  background-color: var(--neutral-silver);
+  margin: 60px 0;
+}
+.achievements .container {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.achievements .container .left-achievements-content h2 {
+  text-align: left;
+}
+.achievements .container .left-achievements-content h2 span {
+  color: var(--primary-color);
+}
+.achievements .container .right-achievements-content {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+}
+.achievements .container .right-achievements-content .item {
+  display: flex;
+  width: 50%;
+}
+.achievements .container .right-achievements-content .item img {
+  height: fit-content;
+  align-self: center;
+}
+.achievements .container .right-achievements-content .item .item-content {
+  margin-left: 18px;
+}
+.achievements .container .right-achievements-content .item .item-content h2 {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: var(--neutral-grey);
+}
+.achievements .container .right-achievements-content .item .item-content p {
+  margin-top: 5px;
+  color: var(--neutral-grey);
+  font-weight: 400;
+  font-size: 12px;
+}
+/*End achievements section*/
