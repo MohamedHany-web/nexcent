@@ -218,3 +218,62 @@ a {
   font-size: 12px;
 }
 /*End achievements section*/
+
+/*Start our customers section*/
+
+.our-customers {
+  background-color: var(--neutral-silver);
+  padding: 20px 0;
+}
+.our-customers .container {
+  display: flex;
+  justify-content: space-between;
+}
+.our-customers .container .left-our-customers-content {
+  width: 35%;
+  text-align: center;
+  align-self: center;
+}
+.our-customers .container .left-our-customers-content img {
+  width: 60%;
+  height: auto;
+}
+.our-customers .container .right-our-customers-content {
+  width: 65%;
+}
+.our-customers .container .right-our-customers-content p:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  color: #717171;
+}
+.our-customers .container .right-our-customers-content h3 {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.our-customers .container .right-our-customers-content p:nth-of-type(2) {
+  color: #89939e;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.our-customers .container .right-our-customers-content .our-customers-icons {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+.our-customers
+  .container
+  .right-our-customers-content
+  .our-customers-icons
+  button {
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+/*End our customers section*/
