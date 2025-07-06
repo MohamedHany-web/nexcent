@@ -33,6 +33,18 @@ a {
 .btn:hover {
   background-color: #388e3b;
 }
+.text {
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: var(--neutral-grey);
+}
+.sub-headding-h2 {
+  color: var(--neutral-grey);
+  font-size: 36px;
+  margin-bottom: 0;
+  text-align: center;
+}
 /* start header styles*/
 .header .container {
   display: flex;
@@ -78,13 +90,77 @@ a {
 .hero .container .hero-left-content h1 span {
   color: var(--primary-color);
 }
-.hero .container .hero-left-content p {
-  font-weight: 400;
-  font-size: 12px;
-  margin-bottom: 20px;
-  color: var(--neutral-grey);
-}
 .hero .container .hero-right-content {
   text-align: center;
 }
 /*End hero section*/
+
+/*Start our clients section*/
+
+.our-clients {
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
+.our-clients .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-clients .container .our-clients-icons img {
+  display: inline-block;
+}
+.our-clients .container .our-clients-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 10px;
+}
+/*End our clients section*/
+
+/*Start who we serve*/
+
+.who-we-serve {
+  margin-bottom: 50px;
+}
+.who-we-serve .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.who-we-serve .container .who-we-serve-items {
+  display: flex;
+  justify-content: space-around;
+}
+.who-we-serve .container .who-we-serve-items .item {
+  width: 24%;
+  text-align: center;
+  box-shadow: 0px 1.39px 2.78px #abbed1;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+.who-we-serve .container .who-we-serve-items .item h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+/*End who we serve*/
+
+/*Start more info seciton*/
+
+.more-info .container {
+  display: flex;
+  justify-content: space-around;
+}
+.more-info .container .left-more-info-content {
+  text-align: center;
+  width: 40%;
+  padding: 0 0 0 50px;
+}
+.more-info .container .right-more-info-content {
+  width: 40%;
+  padding: 0 50px 0 0;
+}
+.more-info .container .right-more-info-content h2 {
+  text-align: left;
+}
+
+/*End more info seciton*/
